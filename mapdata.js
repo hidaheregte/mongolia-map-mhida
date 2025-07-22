@@ -33,7 +33,7 @@ var simplemaps_countrymap_mapdata={
     //Label defaults
     label_color: "#ffffff",
     label_hover_color: "#ffffff",
-    label_size: 16,
+    label_size: "20",
     label_font: "Arial",
     label_display: "auto",
     label_scale: "yes",
@@ -68,171 +68,121 @@ var simplemaps_countrymap_mapdata={
     images_directory: "default",
     fade_time: 0.1,
     link_text: "View Website",
-    popups: "detect"
+    popups: "detect",
+    state_image_url: "",
+    state_image_position: "",
+    location_image_url: ""
   },
   state_specific: {
+    "0": {},
+    "1": {},
     MN035: {
-      name: "Orhon",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Орхон аймаг"
     },
     MN037: {
-      name: "Darhan-Uul",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Дархан-Уул аймаг"
     },
     MN039: {
-      name: "Hentiy",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Хэнтий аймаг",
+      description: "Уламжлалт Анагаах Ухааны НЭ",
+      color: "green",
+      hover_color: "lightgreen"
     },
     MN041: {
-      name: "Hövsgöl",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Хөвсгөл аймаг"
     },
     MN043: {
-      name: "Hovd",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Ховд аймаг"
     },
     MN046: {
-      name: "Uvs",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Увс аймаг",
+      description: "Увс НЭ",
+      color: "green",
+      hover_color: "lightgreen"
     },
     MN047: {
-      name: "Töv",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Төв аймаг",
+      description: "Төв аймгийн НЭ; Жаргалант сэргээн засах төв",
+      color: "green",
+      hover_color: "lightgreen"
     },
     MN049: {
-      name: "Selenge",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Сэлэнгэ аймаг",
+      description: "Мандал сумын НЭ",
+      color: "green",
+      hover_color: "lightgreen"
     },
     MN051: {
-      name: "Sühbaatar",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Сүхбаатар аймаг",
+      description: "Сүхбаатар НЭ",
+      color: "green",
+      hover_color: "lightgreen"
     },
     MN053: {
-      name: "Ömnögovi",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Өмнөговь аймаг",
+      description: "Өмнөговь БОЭТ;\nАминбулаг",
+      color: "green",
+      hover_color: "lightgreen"
     },
     MN055: {
-      name: "Övörhangay",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Өвөрхангай аймаг",
+      description: "Ананд Хужирт Рашаан Сувилал; \nХужирт рашаан сувилал;\nӨвөрхангай БОЭТ",
+      color: "green",
+      hover_color: "lightgreen"
     },
     MN057: {
-      name: "Dzavhan",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Завхан аймаг",
+      description: "Завхан НЭ",
+      color: "green",
+      hover_color: "lightgreen"
     },
     MN059: {
-      name: "Dundgovi",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Дундговь аймаг"
     },
     MN061: {
-      name: "Dornod",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Дорнод аймаг"
     },
     MN063: {
-      name: "Dornogovi",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Дорноговь аймаг"
     },
     MN064: {
-      name: "Govĭ-Sümber",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Говьсүмбэр аймаг"
     },
     MN065: {
-      name: "Govi-Altay",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Говь-Алтай аймаг",
+      description: "Говь-Алтай НЭ; Машид-Эрдэнэ",
+      color: "green",
+      hover_color: "lightgreen"
     },
     MN067: {
-      name: "Bulgan",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Булган аймаг",
+      description: "Булган НЭ",
+      color: "green",
+      hover_color: "lightgreen"
     },
     MN069: {
-      name: "Bayanhongor",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Баянхонгор аймаг"
     },
     MN071: {
-      name: "Bayan-Ölgiy",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Баян-Өлгий аймаг",
+      description: "Баян-Өлгий НЭ",
+      color: "green",
+      hover_color: "lightgreen"
     },
     MN073: {
-      name: "Arhangay",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Архангай аймаг",
+      description: "АХАНЭ",
+      color: "green",
+      hover_color: "lightgreen"
     },
     MN1: {
-      name: "Ulaanbaatar",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Улаанбаатар хот",
+      description: "100 нас;\nNURA;\nААГ;\nАгь-Манба;\nАддиктологийн төв;\nАзимед;\nАльтернатив;\nАӨСҮТ;\nАРИУН ЛОТУС;\nАсралт мед\nАШУҮИС ТЭ;\nБагануур ЭМТ;\nБагахангай ЭМТ;\nБГД ЭМТ;\nБЗД ЭМТ;\nБЗДНЭ;\nГССҮТ;\nГҮТ;\nМДЭHХ;\nНААГ;\nНалайх ЭМТ;\nНандин Ухаан;\nНатур мед;\nНомун;\nНТТТ;\nСЗҮТ;\nСүхбаатар ЭМТ;\nСХД ЭМТ;\nСХДНЭ;\nСЭМҮТ;\nТЗНЭ;\nТТАХН;\nУАУТХ;\nУБТЗ ТЭ;\nУлаанбаатар мед;\nУХТЭ;\nХCYT;\nХАГ;\nХан-Уул ЭМТ;\nХӨСҮТ;\nХСҮТ;\nХУДНЭ;\nЦТЭ;\nЦу-Эрдэнэ;\nЭм Би Жи Мед;\nЭМЖЖ;\nЭНЭҮТ 2;\nЭХЭМҮТ;",
+      color: "lightgreen",
+      hover_color: "red"
     }
   },
-  locations: {
-    "0": {
-      name: "Ulaanbaatar",
-      lat: "47.916667",
-      lng: "106.916667"
-    }
-  },
+  locations: {},
   labels: {
     MN035: {
       name: "Orhon",
