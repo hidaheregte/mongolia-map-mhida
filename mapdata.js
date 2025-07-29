@@ -74,19 +74,17 @@ var simplemaps_countrymap_mapdata={
   state_specific: {
     MN035: {
       name: "Орхон",
-      description: " ",
-      color: "#015097",
-      hover_color: "#92cae4"
+      description: " "
     },
     MN037: {
       name: "Дархан-Уул",
-      description: " ",
+      description: "Дархан-Уул НЭ",
       color: "#015097",
       hover_color: "#92cae4"
     },
     MN039: {
       name: "Хэнтий",
-      description: " ",
+      description: "<li>УАУ НЭ</li>",
       color: "#015097",
       hover_color: "#92cae4"
     },
@@ -96,49 +94,51 @@ var simplemaps_countrymap_mapdata={
     },
     MN043: {
       name: "Ховд",
-      description: " ",
+      description: "<li>Булган Cумын НЭ</li>",
       color: "#015097",
       hover_color: "#92cae4"
     },
     MN046: {
       name: "Увс",
-      description: " ",
+      description: "Увс НЭ",
       color: "#015097",
       hover_color: "#92cae4"
     },
     MN047: {
       name: "Төв",
-      description: " ",
+      description: "<li>Төв НЭ</li>\n  <li>Жаргалант Cэргээн 3асах Tөв</li>",
       color: "#015097",
       hover_color: "#92cae4"
     },
     MN049: {
       name: "Сэлэнгэ",
-      description: " "
+      description: "<li>Мандал Cумын НЭ</li>",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN051: {
       name: "Сүхбаатар",
-      description: " ",
+      description: "Сүхбаатар НЭ",
       color: "#015097",
       hover_color: "#92cae4"
     },
     MN053: {
       name: "Өмнөговь",
-      description: " ",
+      description: "<li>Өмнөговь БОЭТ</li>\n  <li>Аминбулаг</li>",
       color: "#015097",
       hover_color: "#92cae4"
     },
     MN055: {
       name: "Өвөрхангай",
-      description: " ",
+      description: "<li>Ананд Хужирт Рашаан Сувилал</li>\n  <li>Хужирт Рашаан Сувилал</li>\n  <li>Өвөрхангай БОЭТ</li>",
       color: "#015097",
       hover_color: "#92cae4"
     },
     MN057: {
       name: "Завхан",
-      description: " ",
       color: "#015097",
-      hover_color: "#92cae4"
+      hover_color: "#92cae4",
+      description: "<li>Завхан НЭ</li>\n  <li>Завхан УАУТ</li>"
     },
     MN059: {
       name: "Дундговь",
@@ -146,7 +146,7 @@ var simplemaps_countrymap_mapdata={
     },
     MN061: {
       name: "Дорнод",
-      description: " ",
+      description: "Дорнод БОЭТ",
       color: "#015097",
       hover_color: "#92cae4"
     },
@@ -160,37 +160,37 @@ var simplemaps_countrymap_mapdata={
     },
     MN065: {
       name: "Говь-Алтай",
-      description: " ",
+      description: "Говь-Алтай НЭ",
       color: "#015097",
       hover_color: "#92cae4"
     },
     MN067: {
       name: "Булган",
-      description: " ",
+      description: "Булган НЭ",
       color: "#015097",
       hover_color: "#92cae4"
     },
     MN069: {
       name: "Баянхонгор",
-      description: " ",
+      description: "Баянхонгор НЭ",
       color: "#015097",
       hover_color: "#92cae4"
     },
     MN071: {
       name: "Баян-Өлгий",
-      description: " ",
+      description: "Баян-Өлгий НЭ",
       color: "#015097",
       hover_color: "#92cae4"
     },
     MN073: {
       name: "Архангай",
-      description: " ",
       color: "#015097",
-      hover_color: "#92cae4"
+      hover_color: "#92cae4",
+      description: "Архангай НЭ"
     },
     MN1: {
       name: "Улаанбаатар",
-      description: " ",
+      description: "<li>100 нас</li>\n  <li>Аддиктологийн төв</li>\n  <li>Агь-Манба</li>\n  <li>Ариун Лотус СЗТ</li>\n  <li>Асралт мед</li>\n  <li>Азимед</li>\n  <li>Aлергимед</li>\n  <li>Багахангай ЭМТ</li>\n  <li>БГД ЭМТ</li>\n  <li>Багануур ЭМТ</li>\n  <li>БЗД ЭМТ</li>\n  <li>БЗД НЭ</li>\n  <li>Бриллиант</li>\n  <li>УБТЗ ТЭ</li>\n  <li>ГССҮТ</li>\n  <li>Жаргалант СЗТ</li>\n  <li>Зуун Эрдэнэ</li>\n  <li>НААГ</li>\n  <li>Нандин Ухаан</li>\n  <li>Налайх ЭМТ</li>\n  <li>НТТТ</li>\n  <li>НХАГ</li>\n  <li>Одчим Наран</li>\n  <li>СЭМҮТ</li>\n  <li>СХД ЭМТ</li>\n  <li>СХД НЭ</li>\n  <li>СЗҮТ</li>\n  <li>ТТАХНЭ</li>\n  <li>Улаанбаатар мед</li>\n  <li>УХТЭ</li>\n  <li>Хан-Уул ЭМТ</li>\n  <li>ХӨСҮТ</li>\n  <li>ХУД НЭ</li>\n  <li>ХУД ЭМТ</li>\n  <li>ЦТЭ</li>\n  <li>Цу-Эрдэнэ</li>\n  <li>Эм Би Жи Мед</li>\n  <li>Энэрэл</li>\n  <li>ЭМЖЖ</li>\n  <li>ЭХЭМҮТ</li>\n  <li>SBNE</li>\n  <li>NURA</li>\n  <li>СБД ЭМТ</li>",
       color: "#015097",
       hover_color: "#92cae4"
     }
