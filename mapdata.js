@@ -14,14 +14,12 @@ var simplemaps_countrymap_mapdata={
     border_size: 1.5,
     all_states_inactive: "no",
     all_states_zoomable: "yes",
-    
-    //Location defaults
-    location_description: "Location description",
+    location_description: "",
     location_url: "",
-    location_color: "#FF0067",
+    location_color: "#c42730",
     location_opacity: 0.8,
     location_hover_opacity: 1,
-    location_size: 25,
+    location_size: "20",
     location_type: "square",
     location_image_source: "frog.png",
     location_border_color: "#FFFFFF",
@@ -33,7 +31,7 @@ var simplemaps_countrymap_mapdata={
     //Label defaults
     label_color: "#ffffff",
     label_hover_color: "#ffffff",
-    label_size: "25",
+    label_size: 16,
     label_font: "Arial",
     label_display: "auto",
     label_scale: "yes",
@@ -74,209 +72,224 @@ var simplemaps_countrymap_mapdata={
     location_image_url: ""
   },
   state_specific: {
-    "0": {},
-    "1": {},
     MN035: {
-      name: "Орхон аймаг"
+      name: "Орхон",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN037: {
-      name: "Дархан-Уул аймаг"
+      name: "Дархан-Уул",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN039: {
-      name: "Хэнтий аймаг",
-      description: "Уламжлалт Анагаах Ухааны НЭ",
-      color: "green",
-      hover_color: "lightgreen"
+      name: "Хэнтий",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN041: {
-      name: "Хөвсгөл аймаг"
+      name: "Хөвсгөл",
+      description: " "
     },
     MN043: {
-      name: "Ховд аймаг",
-      description: "Ховд Булган сум НЭ",
-      color: "green",
-      hover_color: "lightgreen"
+      name: "Ховд",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN046: {
-      name: "Увс аймаг",
-      description: "Увс НЭ",
-      color: "green",
-      hover_color: "lightgreen"
+      name: "Увс",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN047: {
-      name: "Төв аймаг",
-      description: "Төв аймгийн НЭ; Жаргалант сэргээн засах төв",
-      color: "green",
-      hover_color: "lightgreen"
+      name: "Төв",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN049: {
-      name: "Сэлэнгэ аймаг",
-      description: "Мандал сумын НЭ",
-      color: "green",
-      hover_color: "lightgreen"
+      name: "Сэлэнгэ",
+      description: " "
     },
     MN051: {
-      name: "Сүхбаатар аймаг",
-      description: "Сүхбаатар НЭ",
-      color: "green",
-      hover_color: "lightgreen"
+      name: "Сүхбаатар",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN053: {
-      name: "Өмнөговь аймаг",
-      description: "Өмнөговь БОЭТ;\nАминбулаг",
-      color: "green",
-      hover_color: "lightgreen"
+      name: "Өмнөговь",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN055: {
-      name: "Өвөрхангай аймаг",
-      description: "Ананд Хужирт Рашаан Сувилал; \nХужирт рашаан сувилал;\nӨвөрхангай БОЭТ",
-      color: "green",
-      hover_color: "lightgreen"
+      name: "Өвөрхангай",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN057: {
-      name: "Завхан аймаг",
-      description: "Завхан НЭ; Завхан Уаут",
-      color: "green",
-      hover_color: "lightgreen"
+      name: "Завхан",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN059: {
-      name: "Дундговь аймаг"
+      name: "Дундговь",
+      description: " "
     },
     MN061: {
-      name: "Дорнод аймаг"
+      name: "Дорнод",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN063: {
-      name: "Дорноговь аймаг"
+      name: "Дорноговь",
+      description: " "
     },
     MN064: {
-      name: "Говьсүмбэр аймаг"
+      name: "Говь-Сүмбэр",
+      description: " "
     },
     MN065: {
-      name: "Говь-Алтай аймаг",
-      description: "Говь-Алтай НЭ; Машид-Эрдэнэ",
-      color: "green",
-      hover_color: "lightgreen"
+      name: "Говь-Алтай",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN067: {
-      name: "Булган аймаг",
-      description: "Булган НЭ",
-      color: "green",
-      hover_color: "lightgreen"
+      name: "Булган",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN069: {
-      name: "Баянхонгор аймаг",
-      description: "Баянхонгор НЭ",
-      color: "green",
-      hover_color: "lightgreen"
+      name: "Баянхонгор",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN071: {
-      name: "Баян-Өлгий аймаг",
-      description: "Баян-Өлгий НЭ",
-      color: "green",
-      hover_color: "lightgreen"
+      name: "Баян-Өлгий",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN073: {
-      name: "Архангай аймаг",
-      description: "АХАНЭ",
-      color: "green",
-      hover_color: "lightgreen"
+      name: "Архангай",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     },
     MN1: {
-      name: "Улаанбаатар хот",
-      description: "100 нас;\nNURA;\nААГ;\nАгь-Манба;\nАддиктологийн төв;\nАзимед;\nАльтернатив;\nАӨСҮТ;\nАРИУН ЛОТУС;\nАсралт мед\nАШУҮИС ТЭ;\nБагануур ЭМТ;\nБагахангай ЭМТ;\nБГД ЭМТ;\nБЗД ЭМТ;\nБЗДНЭ;\nГССҮТ;\nГҮТ;\nМДЭHХ;\nНААГ;\nНалайх ЭМТ;\nНандин Ухаан;\nНатур мед;\nНомун;\nНТТТ;\nСЗҮТ;\nСүхбаатар ЭМТ;\nСХД ЭМТ;\nСХДНЭ;\nСЭМҮТ;\nТЗНЭ;\nТТАХН;\nУАУТХ;\nУБТЗ ТЭ;\nУлаанбаатар мед;\nУХТЭ;\nХCYT;\nХАГ;\nХан-Уул ЭМТ;\nХӨСҮТ;\nХСҮТ;\nХУДНЭ;\nЦТЭ;\nЦу-Эрдэнэ;\nЭм Би Жи Мед;\nЭМЖЖ;\nЭНЭҮТ 2;\nЭХЭМҮТ; Allergymed; Одчим Наран",
-      color: "lightgreen",
-      hover_color: "red"
+      name: "Улаанбаатар",
+      description: " ",
+      color: "#015097",
+      hover_color: "#92cae4"
     }
   },
-  locations: {},
+  locations: {
+    "0": {
+      name: "Улаанбаатар",
+      lat: "47.916667",
+      lng: "106.916667"
+    }
+  },
   labels: {
     MN035: {
       name: "Орхон",
       parent_id: "MN035"
     },
     MN037: {
-      parent_id: "MN037",
-      name: "Дархан-Уул"
+      name: "Дархан-Уул",
+      parent_id: "MN037"
     },
     MN039: {
       name: "Хэнтий",
       parent_id: "MN039"
     },
     MN041: {
-      parent_id: "MN041",
-      name: "Хөвсгөл"
+      name: "Хөвсгөл",
+      parent_id: "MN041"
     },
     MN043: {
       name: "Ховд",
       parent_id: "MN043"
     },
     MN046: {
-      parent_id: "MN046",
-      name: "Увс"
+      name: "Увс",
+      parent_id: "MN046"
     },
     MN047: {
       name: "Төв",
       parent_id: "MN047"
     },
     MN049: {
-      parent_id: "MN049",
-      name: "Сэлэнгэ"
+      name: "Сэлэнгэ",
+      parent_id: "MN049"
     },
     MN051: {
       name: "Сүхбаатар",
       parent_id: "MN051"
     },
     MN053: {
-      parent_id: "MN053",
-      name: "Өмнөговь"
+      name: "Өмнөговь",
+      parent_id: "MN053"
     },
     MN055: {
       name: "Өвөрхангай",
       parent_id: "MN055"
     },
     MN057: {
-      parent_id: "MN057",
-      name: "Завхан"
+      name: "Завхан",
+      parent_id: "MN057"
     },
     MN059: {
       name: "Дундговь",
       parent_id: "MN059"
     },
     MN061: {
-      parent_id: "MN061",
-      name: "Дорнод"
+      name: "Дорнод",
+      parent_id: "MN061"
     },
     MN063: {
       name: "Дорноговь",
       parent_id: "MN063"
     },
     MN064: {
-      parent_id: "MN064",
-      name: "Говь-Сүмбэр"
+      name: "Говь-Сүмбэр",
+      parent_id: "MN064"
     },
     MN065: {
       name: "Говь-Алтай",
       parent_id: "MN065"
     },
     MN067: {
-      parent_id: "MN067",
-      name: "Булган"
+      name: "Булган",
+      parent_id: "MN067"
     },
     MN069: {
       name: "Баянхонгор",
       parent_id: "MN069"
     },
     MN071: {
-      parent_id: "MN071",
-      name: "Баян-Өлгий"
+      name: "Баян-Өлгий",
+      parent_id: "MN071"
     },
     MN073: {
       name: "Архангай",
       parent_id: "MN073"
     },
     MN1: {
-      parent_id: "MN1",
-      name: "Улаанбаатар"
+      name: "Улаанбаатар",
+      parent_id: "MN1"
     }
   },
   legend: {
